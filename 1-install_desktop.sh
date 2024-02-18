@@ -49,10 +49,6 @@ echo ""
 
 
 ## Ajout de l'utilistateur dans les groupes video audio wheel...etc
-echo ; read -p "y a t-il un utilisateur (yes/no): " X;
-echo ""
-if [ "$X" = "yes" ]
-then
     echo ; read -p "Quel est le nom de l'utilisateur ? " user;
     echo ""
     echo "$user activé"
